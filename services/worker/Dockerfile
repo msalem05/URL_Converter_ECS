@@ -12,4 +12,4 @@ RUN CGO_ENABLED=0 go build -o worker .
 
 EXPOSE 8090
 
-CMD ["./worker"]
+CMD ["/worker"]

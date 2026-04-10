@@ -12,4 +12,4 @@ RUN CGO_ENABLED=0 go build -o dashboard .
 
 EXPOSE 8081
 
-CMD ["./dashboard"]
+CMD ["/dashboard"]
